@@ -40,7 +40,6 @@
   - [Prerequisites](#prerequisites)
   - [Automated Launch (Windows)](#automated-launch-windows)
   - [Manual Step-by-Step Setup](#manual-step-by-step-setup)
-- [College Viva Voce Q&A Defense Guide](#-college-viva-voce-qa-defense-guide)
 - [Future Roadmap](#-future-roadmap)
 - [Author & Acknowledgements](#-author--acknowledgements)
 
