@@ -1,0 +1,376 @@
+{
+  "best_model_name": "Gradient Boosting",
+  "best_model_metrics": {
+    "model_name": "Gradient Boosting",
+    "train_metrics": {
+      "mae": 1.451,
+      "mse": 3.595,
+      "rmse": 1.896,
+      "r2": 0.9997
+    },
+    "test_metrics": {
+      "mae": 3.296,
+      "mse": 20.836,
+      "rmse": 4.565,
+      "r2": 0.9984
+    },
+    "cv_metrics": {
+      "cv_r2_mean": 0.9964,
+      "cv_r2_std": 0.001,
+      "cv_rmse_mean": 6.408,
+      "cv_rmse_std": 0.853,
+      "k_folds": 5
+    },
+    "overfitting_analysis": {
+      "generalization_gap_r2": 0.0013,
+      "status": "Well Generalizing",
+      "train_r2": 0.9991,
+      "test_r2": 0.9978
+    }
+  },
+  "residual_std_error": 4.56,
+  "models": {
+    "Linear Regression": {
+      "model_name": "Linear Regression",
+      "train_metrics": {
+        "mae": 23.259,
+        "mse": 1082.479,
+        "rmse": 32.901,
+        "r2": 0.9078
+      },
+      "test_metrics": {
+        "mae": 24.139,
+        "mse": 984.033,
+        "rmse": 31.369,
+        "r2": 0.9233
+      },
+      "cv_metrics": {
+        "cv_r2_mean": 0.9053,
+        "cv_r2_std": 0.01,
+        "cv_rmse_mean": 33.229,
+        "cv_rmse_std": 1.227,
+        "k_folds": 5
+      },
+      "overfitting_analysis": {
+        "generalization_gap_r2": -0.0155,
+        "status": "Well Generalizing",
+        "train_r2": 0.9078,
+        "test_r2": 0.9233
+      }
+    },
+    "Ridge Regression": {
+      "model_name": "Ridge Regression",
+      "train_metrics": {
+        "mae": 23.264,
+        "mse": 1082.484,
+        "rmse": 32.901,
+        "r2": 0.9078
+      },
+      "test_metrics": {
+        "mae": 24.148,
+        "mse": 984.485,
+        "rmse": 31.377,
+        "r2": 0.9232
+      },
+      "cv_metrics": {
+        "cv_r2_mean": 0.9053,
+        "cv_r2_std": 0.01,
+        "cv_rmse_mean": 33.228,
+        "cv_rmse_std": 1.226,
+        "k_folds": 5
+      },
+      "overfitting_analysis": {
+        "generalization_gap_r2": -0.0154,
+        "status": "Well Generalizing",
+        "train_r2": 0.9078,
+        "test_r2": 0.9232
+      }
+    },
+    "Lasso Regression": {
+      "model_name": "Lasso Regression",
+      "train_metrics": {
+        "mae": 23.402,
+        "mse": 1083.953,
+        "rmse": 32.923,
+        "r2": 0.9076
+      },
+      "test_metrics": {
+        "mae": 24.126,
+        "mse": 975.948,
+        "rmse": 31.24,
+        "r2": 0.9239
+      },
+      "cv_metrics": {
+        "cv_r2_mean": 0.9052,
+        "cv_r2_std": 0.0097,
+        "cv_rmse_mean": 33.24,
+        "cv_rmse_std": 1.195,
+        "k_folds": 5
+      },
+      "overfitting_analysis": {
+        "generalization_gap_r2": -0.0163,
+        "status": "Well Generalizing",
+        "train_r2": 0.9076,
+        "test_r2": 0.9239
+      }
+    },
+    "Random Forest": {
+      "model_name": "Random Forest",
+      "train_metrics": {
+        "mae": 1.282,
+        "mse": 4.72,
+        "rmse": 2.173,
+        "r2": 0.9996
+      },
+      "test_metrics": {
+        "mae": 3.227,
+        "mse": 24.342,
+        "rmse": 4.934,
+        "r2": 0.9981
+      },
+      "cv_metrics": {
+        "cv_r2_mean": 0.9969,
+        "cv_r2_std": 0.0009,
+        "cv_rmse_mean": 5.937,
+        "cv_rmse_std": 0.862,
+        "k_folds": 5
+      },
+      "overfitting_analysis": {
+        "generalization_gap_r2": 0.0014,
+        "status": "Well Generalizing",
+        "train_r2": 0.9995,
+        "test_r2": 0.9981
+      }
+    },
+    "Gradient Boosting": {
+      "model_name": "Gradient Boosting",
+      "train_metrics": {
+        "mae": 1.451,
+        "mse": 3.595,
+        "rmse": 1.896,
+        "r2": 0.9997
+      },
+      "test_metrics": {
+        "mae": 3.296,
+        "mse": 20.836,
+        "rmse": 4.565,
+        "r2": 0.9984
+      },
+      "cv_metrics": {
+        "cv_r2_mean": 0.9964,
+        "cv_r2_std": 0.001,
+        "cv_rmse_mean": 6.408,
+        "cv_rmse_std": 0.853,
+        "k_folds": 5
+      },
+      "overfitting_analysis": {
+        "generalization_gap_r2": 0.0013,
+        "status": "Well Generalizing",
+        "train_r2": 0.9991,
+        "test_r2": 0.9978
+      }
+    }
+  },
+  "comparison_table": [
+    {
+      "model": "Gradient Boosting",
+      "mae": 3.296,
+      "mse": 20.836,
+      "rmse": 4.565,
+      "r2": 0.9984,
+      "cv_r2_mean": 0.9964,
+      "cv_r2_std": 0.001,
+      "is_best": true
+    },
+    {
+      "model": "Random Forest",
+      "mae": 3.227,
+      "mse": 24.342,
+      "rmse": 4.934,
+      "r2": 0.9981,
+      "cv_r2_mean": 0.9969,
+      "cv_r2_std": 0.0009,
+      "is_best": false
+    },
+    {
+      "model": "Lasso Regression",
+      "mae": 24.126,
+      "mse": 975.948,
+      "rmse": 31.24,
+      "r2": 0.9239,
+      "cv_r2_mean": 0.9052,
+      "cv_r2_std": 0.0097,
+      "is_best": false
+    },
+    {
+      "model": "Linear Regression",
+      "mae": 24.139,
+      "mse": 984.033,
+      "rmse": 31.369,
+      "r2": 0.9233,
+      "cv_r2_mean": 0.9053,
+      "cv_r2_std": 0.01,
+      "is_best": false
+    },
+    {
+      "model": "Ridge Regression",
+      "mae": 24.148,
+      "mse": 984.485,
+      "rmse": 31.377,
+      "r2": 0.9232,
+      "cv_r2_mean": 0.9053,
+      "cv_r2_std": 0.01,
+      "is_best": false
+    }
+  ],
+  "tuning_comparison": {
+    "Random Forest": {
+      "best_params": {
+        "max_depth": 15,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "n_estimators": 100
+      },
+      "before_tuning": {
+        "mae": 3.248,
+        "mse": 24.689,
+        "rmse": 4.969,
+        "r2": 0.9981
+      },
+      "after_tuning": {
+        "mae": 3.227,
+        "mse": 24.342,
+        "rmse": 4.934,
+        "r2": 0.9981
+      },
+      "rmse_improvement": 0.035
+    },
+    "Gradient Boosting": {
+      "best_params": {
+        "learning_rate": 0.1,
+        "max_depth": 5,
+        "min_samples_split": 5,
+        "n_estimators": 150
+      },
+      "before_tuning": {
+        "mae": 3.778,
+        "mse": 27.901,
+        "rmse": 5.282,
+        "r2": 0.9978
+      },
+      "after_tuning": {
+        "mae": 3.296,
+        "mse": 20.836,
+        "rmse": 4.565,
+        "r2": 0.9984
+      },
+      "rmse_improvement": 0.717
+    }
+  },
+  "feature_importance": {
+    "Random Forest": [
+      {
+        "feature": "PM2.5",
+        "importance": 0.9413,
+        "percentage": 94.13
+      },
+      {
+        "feature": "PM10",
+        "importance": 0.0396,
+        "percentage": 3.96
+      },
+      {
+        "feature": "NO2",
+        "importance": 0.0099,
+        "percentage": 0.99
+      },
+      {
+        "feature": "O3",
+        "importance": 0.0053,
+        "percentage": 0.53
+      },
+      {
+        "feature": "NOx",
+        "importance": 0.0026,
+        "percentage": 0.26
+      },
+      {
+        "feature": "Temperature",
+        "importance": 0.0004,
+        "percentage": 0.04
+      },
+      {
+        "feature": "Wind_Speed",
+        "importance": 0.0003,
+        "percentage": 0.03
+      },
+      {
+        "feature": "SO2",
+        "importance": 0.0002,
+        "percentage": 0.02
+      },
+      {
+        "feature": "CO",
+        "importance": 0.0002,
+        "percentage": 0.02
+      },
+      {
+        "feature": "Humidity",
+        "importance": 0.0001,
+        "percentage": 0.01
+      }
+    ],
+    "Gradient Boosting": [
+      {
+        "feature": "PM2.5",
+        "importance": 0.9408,
+        "percentage": 94.08
+      },
+      {
+        "feature": "PM10",
+        "importance": 0.0388,
+        "percentage": 3.88
+      },
+      {
+        "feature": "NO2",
+        "importance": 0.0132,
+        "percentage": 1.32
+      },
+      {
+        "feature": "O3",
+        "importance": 0.0051,
+        "percentage": 0.51
+      },
+      {
+        "feature": "NOx",
+        "importance": 0.0014,
+        "percentage": 0.14
+      },
+      {
+        "feature": "Temperature",
+        "importance": 0.0003,
+        "percentage": 0.03
+      },
+      {
+        "feature": "Wind_Speed",
+        "importance": 0.0002,
+        "percentage": 0.02
+      },
+      {
+        "feature": "SO2",
+        "importance": 0.0001,
+        "percentage": 0.01
+      },
+      {
+        "feature": "CO",
+        "importance": 0.0001,
+        "percentage": 0.01
+      },
+      {
+        "feature": "Humidity",
+        "importance": 0.0001,
+        "percentage": 0.01
+      }
+    ]
+  }
+}
